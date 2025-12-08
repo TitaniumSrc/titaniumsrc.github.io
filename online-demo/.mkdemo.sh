@@ -1,10 +1,10 @@
 #!/bin/bash
 
-B="$(curl -s https://api.github.com/repos/PlatinumSrc/PlatinumSrc/releases/latest | jq -r .tag_name)"
+B="$(curl -s https://api.github.com/repos/TitaniumSrc/TitaniumSrc/releases/latest | jq -r .tag_name)"
 [ -z "$B" -o "$B" == "null" ] && gc() { git clone "$@"; } || gc() { git clone -b "$B" "$@"; }
-gc --depth 1 https://github.com/PlatinumSrc/PlatinumSrc
+gc --depth 1 https://github.com/TitaniumSrc/TitaniumSrc
 unset gc B
-cd PlatinumSrc
+cd TitaniumSrc
 
 mkdir games mods
 CONFIGTEXT="onlinedemo=true"$'\n'
@@ -36,4 +36,4 @@ printf '%s' "$CONFIGTEXT" > internal/engine/config.cfg
 make CROSS=emscr LDFLAGS+=-sMINIFY_HTML=0 OUTDIR=.. EMSCR_SHELL=../.emscr_shell.html -j$(nproc)
 
 cd ..
-rm -rf PlatinumSrc
+rm -rf TitaniumSrc

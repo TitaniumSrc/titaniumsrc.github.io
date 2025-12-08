@@ -1,22 +1,22 @@
 {%- include globals.liquid -%}
 {%- capture title -%}
     {%- if page.section -%}
-        {{- "PlatinumSrc: " | append: page.section | append: " - " | append: page.title -}}
+        {{- "TitaniumSrc: " | append: page.section | append: " - " | append: page.title -}}
     {%- else -%}
-        {{- "PlatinumSrc - " | append: page.title -}}
+        {{- "TitaniumSrc - " | append: page.title -}}
     {%- endif -%}
 {%- endcapture -%}
 <!DOCTYPE html>
 <html lang="en" bgcolor="{{ bg-color }}" style="height: 100%; background-color: {{ bg-color }};">
     <head>
         <title>{{ title }}</title>
-        <link rel="icon" href="/icon.png"></link>
+        <link rel="icon" href="/tisrc.png"></link>
         <meta charset="UTF-8">
-        <meta name="description" content="PlatinumSrc">
+        <meta name="description" content="TitaniumSrc">
         <meta property="og:title" content="{{ title }}">
-        <meta property="og:description" content="PlatinumSrc GitHub Page">
-        <meta property="og:image" content="/mbedicon.png">
-        <meta name="theme-color" content="#5f8bc3">
+        <meta property="og:description" content="TitaniumSrc GitHub Page">
+        <meta property="og:image" content="/tisrc.png">
+        <meta name="theme-color" content="#c31e21">
         <link rel="stylesheet" href="/base.css">
         <script src="/base.js"></script>
     </head>

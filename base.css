@@ -4,19 +4,19 @@ layout: none
 
 {%- include globals.liquid -%}
 
-{%- assign panel-bg-color = "#314b78" -%}
-{%- assign panel-border-br-color = "#3b5788" -%}
-{%- assign panel-border-dim-color = "#24375e" -%}
-{%- assign code-bg-color = "#3b4668" -%}
-{%- assign code-border-br-color = "#4a5881" -%}
-{%- assign code-border-dim-color = "#2d364f" -%}
-{%- assign table-bg-color = "#131626" -%}
-{%- assign thead-bg-color = "#314b78" -%}
-{%- assign table-border-br-color = "#3b5788" -%}
-{%- assign table-border-dim-color = "#24375e" -%}
-{%- assign border-br-color = "#5f82be" -%}
-{%- assign border-dim-color = "#435d86" -%}
-{%- assign blockquote-bg-color = "#131626" -%}
+{%- assign panel-bg-color = "#783131" -%}
+{%- assign panel-border-br-color = "#883b3b" -%}
+{%- assign panel-border-dim-color = "#5e2424" -%}
+{%- assign code-bg-color = "#683b3b" -%}
+{%- assign code-border-br-color = "#814a4a" -%}
+{%- assign code-border-dim-color = "#4f2d2d" -%}
+{%- assign table-bg-color = "#261313" -%}
+{%- assign thead-bg-color = "#783131" -%}
+{%- assign table-border-br-color = "#883b3b" -%}
+{%- assign table-border-dim-color = "#5e2424" -%}
+{%- assign border-br-color = "#be5f5f" -%}
+{%- assign border-dim-color = "#864343" -%}
+{%- assign blockquote-bg-color = "#261313" -%}
 {%- assign font-color = "#ffffff" -%}
 {%- assign inactive-color = "#bbbbbb" -%}
 {%- assign link-color = "#fff07a" -%}

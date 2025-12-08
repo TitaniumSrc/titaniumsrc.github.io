@@ -16,14 +16,11 @@
 !/bg.png
 !/favicon.ico
 !/index.md
-!/icon.png
-!/mbedicon.png
-!/sidebar.png
+!/tisrc.png
 !/_config.yml
 .**
 !/online-demo/.content.txt
 !/online-demo/.emscr_shell.html
-!/online-demo/.make.sh
 !/online-demo/.mkdemo.sh
 !/.github/
 !/.github/**
