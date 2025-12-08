@@ -25,7 +25,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Setup Emscripten
         uses: mymindstorm/setup-emsdk@v14
-      - name: Build PlatinumSrc online demo
+      - name: Build TitaniumSrc online demo
         run: cd online-demo; ./.mkdemo.sh || exit 1
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
