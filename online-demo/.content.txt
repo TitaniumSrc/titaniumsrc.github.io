@@ -1,11 +1,7 @@
 # Config
-cfg defaultgame = h74
-cfg mods = h74_hqsounds
+cfg defaultgame = demo
 cfg [Renderer]
 cfg gl.fastclear=false
 
-# Optional content
-url https://github.com/PQCraft/PQCraft/raw/master/test_model.p3m games/test/test_model.p3m
-
 # Games
-git https://github.com/PQCraft/H-74
+git https://github.com/TitaniumSrc/demo
