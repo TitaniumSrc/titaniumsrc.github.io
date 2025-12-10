@@ -3,6 +3,8 @@
 !/assets/**
 !/docs/
 !/docs/**
+!/download/
+!/download/**
 !/news/
 !/news/**
 !/online-demo/

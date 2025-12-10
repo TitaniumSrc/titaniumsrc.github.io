@@ -6,7 +6,7 @@ title: Home
 
 # Welcome
 
-- Try the [online demo](/online-demo)! \(JavaScript, WASM, and WebGL2 are required\)
+- Try the [online demo](/online-demo)! \(JavaScript, WASM, and WebGL 1.0 are required\)
 - Check out the [documentation](/docs)
 - Take a look at the [engine](https://github.com/{{ org }}/{{ repo }}) and [website](https://github.com/{{ org }}/{{ site.domain }}) code repositories
 

@@ -1,0 +1,218 @@
+---
+title: Download
+---
+{%- include globals.liquid -%}
+{%- assign dlimg = '<img src="/assets/dl.png" class="dlimg"></img>' -%}
+{%- assign thcol = 'style="min-width: 4em"' -%}
+
+
+<h1>Download</h1>
+<p>Download the TitaniumSrc <a href="#engine">engine</a>, <a href="#server">dedicated server</a>, <a href="#editor">map editor</a>, and <a href="#tools">tools</a></p>
+<p>
+The tools are split into separate platform-agnostic and binary archives.
+The platform-agnostic archives contain things like blender plugins while the binary archives contain compiled tools.
+</p>
+
+
+<hr>
+
+
+<h2 id="engine">Engine</h2>
+
+<p><b>Base files (required)</b></p>
+<p>
+<table>
+<thead>
+    <tr><th class="noth"><sub>Platform</sub>\<sup>Arch</sup></th><th>Any</th></tr>
+</thead>
+<tbody style="text-align: center;">
+    <tr>
+        <td class="vh">Any</td>
+        <td {{ thcol }}><a href="https://github.com/{{ org }}/{{ repo }}/releases/latest/download/tisrc_files_engine.zip">{{ dlimg }}</a></td>
+    </th>
+</tbody>
+</table>
+</p>
+
+<p><b>Binaries</b></p>
+<p>
+<table>
+<thead>
+    <tr>
+        <th class="noth"><sub>Platform</sub>\<sup>Arch</sup></th>
+        <th {{ thcol }}>x86_64</th>
+        <th {{ thcol }}>i868</th>
+        <th {{ thcol }}>ARM32</th>
+        <th {{ thcol }}>AArch64</th>
+    </tr>
+</thead>
+<tbody style="text-align: center;">
+    <tr>
+        <td class="vh">Linux</td>
+        <td><a href="https://github.com/{{ org }}/{{ repo }}/releases/latest/download/tisrc_engine_linux_x86_64.tar.gz">{{ dlimg }}</a></td>
+        <td><a href="https://github.com/{{ org }}/{{ repo }}/releases/latest/download/tisrc_engine_linux_i686.tar.gz">{{ dlimg }}</a></td>
+        <td colspan=2 class="vh"></td>
+    </th>
+    <tr>
+        <td class="vh">Windows</td>
+        <td><a href="https://github.com/{{ org }}/{{ repo }}/releases/latest/download/tisrc_engine_windows_x86_64.zip">{{ dlimg }}</a></td>
+        <td><a href="https://github.com/{{ org }}/{{ repo }}/releases/latest/download/tisrc_engine_windows_i686.zip">{{ dlimg }}</a></td>
+        <td colspan=2 class="vh"></td>
+    </th>
+    <tr>
+        <td class="vh">Windows 9x</td>
+        <td class="vh"></td>
+        <td><a href="https://github.com/{{ org }}/{{ repo }}/releases/latest/download/tisrc_engine_win9x_i686.zip">{{ dlimg }}</a></td>
+        <td colspan=2 class="vh"></td>
+    </th>
+    <tr>
+        <td class="vh">Android</td>
+        <td colspan=4><a href="https://github.com/{{ org }}/{{ repo }}/releases/latest/download/tisrc_engine_android.apk">{{ dlimg }}</a></td>
+    </th>
+</tbody>
+</table>
+</p>
+
+
+<hr>
+
+
+<h2 id="server">Server</h2>
+
+<p><b>Base files (required)</b></p>
+<p>
+<table>
+<thead>
+    <tr><th class="noth"><sub>Platform</sub>\<sup>Arch</sup></th><th>Any</th></tr>
+</thead>
+<tbody style="text-align: center;">
+    <tr>
+        <td class="vh">Any</td>
+        <td {{ thcol }}><a href="https://github.com/{{ org }}/{{ repo }}/releases/latest/download/tisrc_files_server.zip">{{ dlimg }}</a></td>
+    </th>
+</tbody>
+</table>
+</p>
+
+<p><b>Binaries</b></p>
+<p>
+<table>
+<thead>
+    <tr>
+        <th class="noth"><sub>Platform</sub>\<sup>Arch</sup></th>
+        <th {{ thcol }}>x86_64</th>
+        <th {{ thcol }}>i868</th>
+        <th {{ thcol }}>ARM32</th>
+        <th {{ thcol }}>AArch64</th>
+    </tr>
+</thead>
+<tbody style="text-align: center;">
+    <tr>
+        <td class="vh">Linux</td>
+        <td><a href="https://github.com/{{ org }}/{{ repo }}/releases/latest/download/tisrc_server_linux_x86_64.tar.gz">{{ dlimg }}</a></td>
+        <td colspan=3 class="vh"></td>
+    </th>
+    <tr>
+        <td class="vh">Windows</td>
+        <td colspan=2><a href="https://github.com/{{ org }}/{{ repo }}/releases/latest/download/tisrc_server_windows_i686.zip">{{ dlimg }}</a></td>
+        <td colspan=2 class="vh"></td>
+    </th>
+</tbody>
+</table>
+</p>
+
+
+<hr>
+
+
+<h2 id="editor">Editor</h2>
+
+<p><b>Base files (required)</b></p>
+<p>
+<table>
+<thead>
+    <tr><th class="noth"><sub>Platform</sub>\<sup>Arch</sup></th><th>Any</th></tr>
+</thead>
+<tbody style="text-align: center;">
+    <tr>
+        <td class="vh">Any</td>
+        <td {{ thcol }}><a href="https://github.com/{{ org }}/{{ repo }}/releases/latest/download/tisrc_files_editor.zip">{{ dlimg }}</a></td>
+    </th>
+</tbody>
+</table>
+</p>
+
+<p><b>Binaries</b></p>
+<p>
+<table>
+<thead>
+    <tr>
+        <th class="noth"><sub>Platform</sub>\<sup>Arch</sup></th>
+        <th {{ thcol }}>x86_64</th>
+        <th {{ thcol }}>i868</th>
+        <th {{ thcol }}>ARM32</th>
+        <th {{ thcol }}>AArch64</th>
+    </tr>
+</thead>
+<tbody style="text-align: center;">
+    <tr>
+        <td class="vh">Linux</td>
+        <td><a href="https://github.com/{{ org }}/{{ repo }}/releases/latest/download/tisrc_editor_linux_x86_64.tar.gz">{{ dlimg }}</a></td>
+        <td colspan=3 class="vh"></td>
+    </th>
+    <tr>
+        <td class="vh">Windows</td>
+        <td colspan=2><a href="https://github.com/{{ org }}/{{ repo }}/releases/latest/download/tisrc_editor_windows_i686.zip">{{ dlimg }}</a></td>
+        <td colspan=2 class="vh"></td>
+    </th>
+</tbody>
+</table>
+</p>
+
+
+<hr>
+
+
+<h2 id="tools">Tools</h2>
+
+<p><b>Platform-agnostic</b></p>
+<p>
+<table>
+<thead>
+    <tr><th class="noth"><sub>Platform</sub>\<sup>Arch</sup></th><th>Any</th></tr>
+</thead>
+<tbody style="text-align: center;">
+    <tr>
+        <td class="vh">Any</td>
+        <td {{ thcol }}><a href="https://github.com/{{ org }}/{{ repo }}/releases/latest/download/tisrc_tools_any.zip">{{ dlimg }}</a></td>
+    </th>
+</tbody>
+</table>
+</p>
+
+<p><b>Binary</b></p>
+<p>
+<table>
+<thead>
+    <tr>
+        <th class="noth"><sub>Platform</sub>\<sup>Arch</sup></th>
+        <th {{ thcol }}>x86_64</th>
+        <th {{ thcol }}>i868</th>
+        <th {{ thcol }}>ARM32</th>
+        <th {{ thcol }}>AArch64</th>
+    </tr>
+</thead>
+<tbody style="text-align: center;">
+    <tr>
+        <td class="vh">Linux</td>
+        <td><a href="https://github.com/{{ org }}/{{ repo }}/releases/latest/download/tisrc_tools_linux_x86_64.tar.gz">{{ dlimg }}</a></td>
+        <td colspan=3 class="vh"></td>
+    </th>
+    <tr>
+        <td class="vh">Windows</td>
+        <td colspan=2><a href="https://github.com/{{ org }}/{{ repo }}/releases/latest/download/tisrc_tools_windows_i686.zip">{{ dlimg }}</a></td>
+        <td colspan=2 class="vh"></td>
+    </th>
+</tbody>
+</table>
+</p>
